@@ -128,7 +128,7 @@ public class NewActionController {
         return result.toString();
     }
 
-    @RequestMapping(value = "action/reStart")
+    @RequestMapping(value = "/action/reStart")
     public String reStart(Model model) {
         JSONObject result = new JSONObject();
         computer = new Computer();
