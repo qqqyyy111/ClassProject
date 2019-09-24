@@ -8,7 +8,7 @@ All the classes we need to implement are in *ClassProject/src/main/java/com/app/
 Display the user interface **(DON NOT CAHNGE)**.  
 
 ### NewActionController.java ###
-Receive requests submitted by the front-end, execute the action and return the result. You can add a data interface here for testing. Data are passed in JSON format -- Just create a JSONObject, put somthing and return it. Usually the JSON data have a status, 0 → normal and -1 → abnormal.
+Receive requests submitted by the front-end, execute the action and return the result. You can add a data interface here for testing. Data are passed in JSON format: Just create a JSONObject, put something in and return it. Usually put a status in the JSON data, 0 → normal and -1 → abnormal.
 
 ## *Model*
 ### Instructions.java ###
